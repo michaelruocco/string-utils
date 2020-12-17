@@ -14,10 +14,12 @@
 
 ## Overview
 
-Library containing a collection of string utilities, currently just contains some classes for
-doing simple string regex transformations which implement the UnaryOperator interface to allow
-dependency inversion and easier testing. There is also a composer function that allows you to
-compose multiple functions into a single function if required.
+Library containing a collection of string utilities.
+
+It contains classes for doing simple string regex transformations and string masking
+that implement  the UnaryOperator interface to allow dependency inversion and easier testing.
+
+There is also a composer function that allows you to compose multiple functions into a single function if required.
 
 ## Useful Commands
 
