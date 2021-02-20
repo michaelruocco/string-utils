@@ -8,7 +8,6 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=michaelruocco_string-utils&metric=sqale_index)](https://sonarcloud.io/dashboard?id=michaelruocco_string-utils)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=michaelruocco_string-utils&metric=coverage)](https://sonarcloud.io/dashboard?id=michaelruocco_string-utils)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=michaelruocco_string-utils&metric=ncloc)](https://sonarcloud.io/dashboard?id=michaelruocco_string-utils)
-[![Download](https://api.bintray.com/packages/michaelruocco/maven/string-utils/images/download.svg)](https://bintray.com/michaelruocco/maven/string-utils/_latestVersion)
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.michaelruocco/string-utils.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.michaelruocco%22%20AND%20a:%22string-utils%22)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
