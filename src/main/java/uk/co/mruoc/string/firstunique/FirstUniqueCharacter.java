@@ -1,4 +1,4 @@
-package uk.co.mruoc.string;
+package uk.co.mruoc.string.firstunique;
 
 import java.util.LinkedHashSet;
 import java.util.Optional;
@@ -11,8 +11,19 @@ public class FirstUniqueCharacter {
         // utility class
     }
 
+    public static char forceFind(String input) {
+        return find(input).orElseThrow(() -> new NoUniqueCharactersException(input));
+    }
+
     public static Optional<Character> find(String input) {
+        validate(input);
         return toUniqueChars(input).findFirst();
+    }
+
+    private static void validate(String input) {
+        if (input == null) {
+            throw new NoUniqueCharactersException("cannot pass null string");
+        }
     }
 
     private static Stream<Character> toUniqueChars(String input) {
